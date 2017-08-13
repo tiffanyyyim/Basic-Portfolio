@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Contact</title>
+	<title>Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
-	<body>
-		<section class="top"><h1>Tiffany Yim</h1>
-			<div>
-			<a href="file:///D:gwcodingbootcamp/homeworks/homework1/Basic-Portfolio/index">About |</a>
-			<a href="file:///D:gwcodingbootcamp/homeworks/homework1/Basic-Portfolio/portfolio">Portfolio |</a>
-			<a href="file:///D:gwcodingbootcamp/homeworks/homework1/Basic-Portfolio/contact">Contact</a>
-			</div>
-		</section class="top">
+	<link rel="stylesheet" type="text/css" href="assets/css/stylecontact.css">
+</head>
+<body>
+	<section class="top"> <div class="topstuff"> <div class="name"><h1>Tiffany Yim</h1> </div>
+		<div  class="links">
+			<a href="Index.html">About |</a>
+			<a href="portfolio.html">Portfolio |</a>
+			<a href="contact.html">Contact</a>
+		</div class="links"> 
+	</div>
+</section class="top">
 
-		<section class="content">
-			<div class="content">
-			<h2>Contact</h2>
+<div class="container">
+	<form action="/action_page.php">
+		<label for="name">Name</label>
+			<input type="text" id="name" name="name" placeholder="John Smith">
+		<label for="name">Email</label>
+			<input type="text" id="name" name="name" placeholder="example@gmail.com">
+		<label for="message">Message</label>
 			
-			</div class="content">
-		</section class="content">
-		<aside>Connect with Me</aside>
-		<footer>&#169 Copyright 2017 Tiffany Yim</footer>
-	</body>
-	</html>
+		<textarea id="subject" name="subject" style="height:100px"></textarea>
+		<input type="submit" value="Submit">
+	</form>
+</div>
+
+<aside>Connect with Me 
+	<br></br>
+	<a href="https://linkedin.com/in/tiffanyyim">
+		<img src="assets/images/linkedinlogo.png" alt="Linkedin" height="42" width="42">
+	</a>
+	<a href="https://github.com/tiffanyyyim">
+		<img src="assets/images/githublogo.png" alt="GitHub" height="42" width="42">
+	</a>
+	<a href="https://stackoverflow.com">
+		<img src="assets/images/stackoverflowicon.png" alt="StackOverflow" height="42" width="42">
+	</a>
+</aside>
+</div class="stuff">
+<footer>&#169 Copyright 2017 Tiffany Yim</footer>
+</body>
+</html>
